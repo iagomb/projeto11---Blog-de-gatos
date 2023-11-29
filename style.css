@@ -54,7 +54,6 @@ form input {
     width: 24.1rem;
     border: 0;
     padding: 1.2rem 1.4rem;
-    border-radius: 0.4rem;
     background: rgba(255, 255, 255, 0.20);
 }
 
@@ -212,6 +211,7 @@ footer p{
 
     main > img{
         padding-left: 2.6rem;
+        border-radius: 0.5rem;
     }
 
     main p{
