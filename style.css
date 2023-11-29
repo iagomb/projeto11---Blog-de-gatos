@@ -54,6 +54,7 @@ form input {
     width: 24.1rem;
     border: 0;
     padding: 1.2rem 1.4rem;
+    border-radius: 0.4rem;
     background: rgba(255, 255, 255, 0.20);
 }
 
@@ -192,15 +193,15 @@ footer p{
 
     header .wrapper{
         margin: auto;
-        width: 122.1rem;
+        max-width: 122.1rem;
     }
 
-    form{
-        max-width: 100%;
-    }
+    /* form input{
+        width: 100%;
+    } */
 
-    input{
-        width: 108rem;
+    #search{
+        width: clamp(24.1rem, 70vw, 108rem);
         box-sizing: content-box;
     }
 
