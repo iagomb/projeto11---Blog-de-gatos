@@ -51,6 +51,7 @@ form label{
 }
 
 form input {
+    width: 24.1rem;
     border: 0;
     padding: 1.2rem 1.4rem;
     border-radius: 0.4rem;
